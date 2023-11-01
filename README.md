@@ -4,7 +4,7 @@
 ### Education
 
 
-# work Experience
+# Work Experience
 
 # Projects
  - A/B Testing in SQL (report attached)
