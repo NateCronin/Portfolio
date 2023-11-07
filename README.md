@@ -29,7 +29,7 @@
 
 ## **Certificates**
 
-[Google Data Analytics Certificate](https://coursera.org/share/d04b9042c455130bb2f36418c9736c88) - Coursera, 2023
+[Google Data Analytics Certificate](https://github.com/NateCronin/Portfolio/blob/main/Google%20Data%20Analytics.pdf) - Coursera, 2023
 
 ### **Courses**
 
