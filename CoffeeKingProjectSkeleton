@@ -1,0 +1,23 @@
+BUSINESS TABLE
+-- 150,345 records
+
+-- Put in information_schema category
+
+1. Removed irrelevant business from UK
+DELETE FROM `coffeking-dataset.yelp_dataset.Business`
+WHERE state = 'XMS'
+2. Deleted long and lat columns(irrelevant)
+ALTER TABLE `coffeking-dataset.yelp_dataset.Business`
+DROP COLUMN longitude,
+DROP COLUMN latitude;
+3. Fix JSON?
+
+
+Remove irrelevant data.
+Remove duplicate data.
+Fix structural errors.
+Do type conversions.
+Handle missing data.
+Deal with outliers.
+Standardize/Normalize data.
+Validate data.
