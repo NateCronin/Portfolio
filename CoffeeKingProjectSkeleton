@@ -15,11 +15,21 @@ DROP COLUMN latitude;
 3. Fix JSON?
 
 
-Remove irrelevant data.
-Remove duplicate data.
-Fix structural errors.
-Do type conversions.
-Handle missing data.
-Deal with outliers.
-Standardize/Normalize data.
-Validate data.
+SUMMARY STATISTICS 
+
+1. USER MIN/MAX/AVERAGE
+
+ SELECT
+ ROUND(AVG(review_count),2) AS avg_user_reviews,
+ MIN(review_count) AS min_user_reviews, MAX(review_count) AS max_user_reviews
+ FROM `coffeking-dataset.yelp_dataset.User` 
+
+2. Business review counts distributed by star
+
+SELECT
+ stars,
+ COUNT(*) AS business_count
+FROM 
+ `coffeking-dataset.yelp_dataset.Business`
+GROUP BY stars
+ORDER BY stars DESC
