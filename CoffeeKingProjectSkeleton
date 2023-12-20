@@ -33,3 +33,36 @@ FROM
  `coffeking-dataset.yelp_dataset.Business`
 GROUP BY stars
 ORDER BY stars DESC
+
+
+PART 2
+Average Stars per Quartile
+
+SELECT 
+ subq.quartiles,
+ ROUND(AVG(review_count),0)     AS average_reviews,
+ ROUND(AVG(subq.stars),2)       AS average_stars
+ FROM 
+      (SELECT
+        stars,                               
+        review_count,
+        NTILE(4) OVER(ORDER BY review_count) AS quartiles
+      FROM
+       `coffeking-dataset.yelp_dataset.Business`
+      ) subq
+GROUP BY 
+ quartiles
+ORDER BY 
+ quartiles
+
+Checkin count by business star rating
+
+SELECT 
+ COUNT(c.business_id) AS num_checkins,
+ b.stars
+FROM 
+ `coffeking-dataset.yelp_dataset.Business` AS b
+INNER JOIN 
+ `coffeking-dataset.yelp_dataset.checkin` AS c ON c.business_id = b.business_id
+GROUP BY b.stars
+ORDER BY b.stars DESC
