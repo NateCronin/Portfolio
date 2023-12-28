@@ -15,13 +15,15 @@
 
 
 ## Projects
- - A/B Testing in SQL (report attached)
-   [https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd](https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd
+ - Coffee King
 
  - Project 2
 
 ### **Study Projects** 
+ -  A/B Testing in SQL (report attached)
+   [https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd](https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd
 
+- Excel sheet with insurance
 ## **Tools**
 
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
