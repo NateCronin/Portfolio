@@ -37,7 +37,7 @@
 
 ### **Courses**
 
-+ [IBM Excel Basics for Data Analysis](https://github.com/NateCronin/main/Blob/certificates/IBMDashboards.pdf) - Coursera, 2023
++ [IBM Excel Basics for Data Analysis](https://github.com/NateCronin/Portfolio/blob/main/Certificates/IBM%20Excel%20Basics.pdf) - Coursera, 2023
 + [IBM Data Analysis & Dashboards with Excel & Cognos](https://github.com/NateCronin/Portfolio/blob/main/Certificates/IBM%20Dashboards.pdf) - Coursera, 2023
 + [Business Metrics for Data Driven Companies](https://coursera.org/share/6205dc78a3b48a945bd0b4575595e74d) - Duke University, 2023
 
