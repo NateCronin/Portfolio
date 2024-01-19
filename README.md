@@ -29,9 +29,9 @@
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)   ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)   ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black)   ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 
-## **Certificates**
+## **Certificates** 
 
-[Google Data Analytics Certificate](https://github.com/NateCronin/Portfolio/blob/main/Google%20Data%20Analytics.pdf) - Coursera, 2023
+[Google Data Analytics Certificate](https://github.com/NateCronin/Portfolio/blob/certificates/Google%20Data%20Analytics.pdf) - Coursera, 2023
 
 ### **Courses**
 
