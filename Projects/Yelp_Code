@@ -1,0 +1,30 @@
+/*
+Yelp Reviews Data Analysis
+
+Skills used: Aggregate Functions, Window Functions, Joins, Views & Temp Tables, Modeling, Data Types
+
+*/
+
+-- Get Schema of tables
+
+SELECT 
+   column_name, data_type
+ FROM 
+  `coffeking-dataset.yelp_dataset`.INFORMATION_SCHEMA.COLUMNS
+WHERE 
+  table_name = 'Business';
+
+
+SELECT 
+   column_name, data_type
+ FROM 
+  `coffeking-dataset.yelp_dataset`.INFORMATION_SCHEMA.COLUMNS
+WHERE 
+  table_name = 'User';
+
+SELECT 
+   column_name, data_type
+ FROM 
+  `coffeking-dataset.yelp_dataset`.INFORMATION_SCHEMA.COLUMNS
+WHERE 
+  table_name = 'review';
