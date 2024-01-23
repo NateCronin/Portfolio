@@ -1,7 +1,7 @@
-/*
+
 Yelp Reviews Data Analysis
 Skills used: Aggregate Functions, Joins, Window Functions, Subqueries/CTE's, Data Types, Creating tables/views, Modeling
-*/
+
 
 
 -- Cleaning & Removing Unnecessary Data
@@ -32,7 +32,7 @@ FROM yelp_datset.review
 --Summary Statistics
 ``` sql
 SELECT ROUND(AVG(review_count),2) AS avg_user_reviews, MIN(review_count) AS min_user_reviews, MAX(review_count) AS max_user_reviews
-FROM yelp_dataset.User;
+FROM User;
 ```
 --Seperate into Quartiles
 -- Users with less reviews tend to be more negative
