@@ -82,6 +82,7 @@ ORDER BY num_checkins DESC
 
 --SENTIMENT ANALYSIS on Reviews using Sparse Features
 -- Creating new table joining reviews & coffee businesses while extracting text 
+-- Create a new dataset to convert text from the reviews into numerics to feed them into machine learning model
 
 CREATE OR REPLACE TABLE sparse_features.coffee_reviews AS (
    SELECT ROW_NUMBER() OVER() AS review_number, text, REGEXP_EXTRACT_ALL(LOWER(text), '[a-z]{2,}') AS words, stars
@@ -90,6 +91,31 @@ CREATE OR REPLACE TABLE sparse_features.coffee_reviews AS (
          INNER JOIN yelp_datset.Coffee_businesses AS cb ON cb.business_id = r.business_id
          WHERE cb.stars = 5)
 );
+
+-- Run query from review table to split data into test and train randomly
+
+SELECT split, COUNT(split) AS type
+FROM 
+    (SELECT business_id, IF(ABS(MOD(FARM_FINGERPRINT(text),40)) < 20, 'Test', 'Train') AS split
+     FROM yelp_datset.review)
+GROUP BY split
+
+-- Selecting created label column made from previous query that classifed reviews as negative if star rating > 3.0 and postive if > 4
+-- This binary classification neccessary for model to run
+-- Also extracted individual words using REGEXP_EXTRACT_ALL function to build a vocabulary
+
+CREATE OR REPLACE TABLE sparse_features.coffee_reviews AS
+(SELECT ROW_NUMBER()OVER() AS review_number, text, REGEXP_EXTRACT_ALL(LOWER(text), '[a-z]{2,}') AS words, label, spl
+ FROM
+      (SELECT DISTINCT text, label, spl
+       FROM `coffeking-dataset.sparse_features.join_table`
+       WHERE label IN ('Negative','Positive')
+      )
+)
+
+
+
+
 
 
 
