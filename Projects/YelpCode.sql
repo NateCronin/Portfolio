@@ -108,17 +108,24 @@ CREATE OR REPLACE TABLE sparse_features.coffee_reviews AS
 (SELECT ROW_NUMBER()OVER() AS review_number, text, REGEXP_EXTRACT_ALL(LOWER(text), '[a-z]{2,}') AS words, label, spl
  FROM
       (SELECT DISTINCT text, label, spl
-       FROM `coffeking-dataset.sparse_features.join_table`
+       FROM sparse_features.join_table
        WHERE label IN ('Negative','Positive')
       )
 )
 
+-- Creating a vocabulary list
 
-
-
-
-
-
-
-
-
+CREATE OR REPLACE TABLE sparse_features.vocabulary AS (
+    SELECT word, word_frequency, word_index
+    FROM (
+       SELECT word, word_frequency, ROW_NUMBER() OVER(ORDER BY word_frequency DESC) - 1 AS word_index
+       FROM(
+            SELECT word, COUNT(word) AS word_frequency
+            FROM sparse_features.coffee_reviews
+                 UNNEST(words) AS word
+            WHERE spl = 'Train'
+            GROUP BY word
+            )
+          )
+    WHERE word_index < 20000 #selecting top 20,000 words based on count
+);
