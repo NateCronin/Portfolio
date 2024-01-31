@@ -18,15 +18,20 @@ Below, you will be able to find some projects I have worked on in the past as we
 
 In this section, you will find some of the more in-depth projects I have completed, with a brief description of each and code attached.
 
-**Analyzing Yelp Reviews for Recommendations to a New Business**
+### **Yelp Reviews Analysis**
 
 [*Code*](Projects/YelpCode.sql)
 
 **Description:** This Project's focus was to analyze a datset of Yelp reviews of various businesses from 2005 to 2022. The goal was to help a fictional start-up coffee company in providing insights for location, market demographics, and other various business advice. This dataset included 5 distinct tables with information on businesses, reviews, Yelp users, tips users could leave, and times users checked into the business. In order to accompolish the intended goals, the data was loaded into Google Cloud, cleaned & processed using Google BigQuery, and thustly analyzed. Exploratory Data Analysis and correlation analysis were performed as well as creating a predictive model based on text sentiment analysis on keywords left on reviews. All visualizations were created using Tableau.
 
- - Project 2
+**Skills:** Data Analysis, ETL, Data Modeling, Data Cleaning, Relational Database Mgmt, Cloud Storage
 
-### **Study Projects** 
+**Technology:** Google Cloud, SQL (Google Big Query), Microsoft Excel, Tableau
+
+**Findings/Results:** blah blah blah (final report)
+
+
+## **Study Projects** 
  -  A/B Testing in SQL (report attached)
    [https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd](https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd
 
