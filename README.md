@@ -33,8 +33,9 @@ In this section, you will find some of the more in-depth projects I have complet
 
 ## **Study Projects** 
  ### A/B Testing in SQL
-       - Dataset: 'dsv1069 on Mode Analytics, tables detailing users, events, orders, etc. for an online retailer
-       - Goal: Determine if making an item-level change on website configuration will affect the amount of items that are viewed and ultimately ordered
+ **Dataset**: 'dsv1069 on Mode Analytics, tables detailing users, events, orders, etc. for an online retailer
+ 
+**Goal**: Determine if making an item-level change on website configuration will affect the amount of items that are viewed and ultimately ordered
    [https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd](https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd
 
 - Excel sheet with insurance
