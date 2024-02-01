@@ -1,4 +1,4 @@
-# Nathan Cronin - Data Analysis Portfolio
+=# Nathan Cronin - Data Analysis Portfolio
 ## About Me 
 
 Hello, I'm Nathan! This portfolio is intended to show my growing knowledge and skillset as it relates to data analysis and data science. I've always had a strong passion for analytics, and upon receving my degree in Health Administration I decided to pursue this passion further. Over the past year I have made countless strides in strenghting my abilites as a detail-oriented thinker and working with data tools. I have gained vital experience working with Excel, SQL, Tableau, and others. My future goals are to, hopefully, land a position working with data on a day-to-day basis, and to eventually enter a Master's program with a focus on Data Science. 
@@ -45,7 +45,8 @@ This section comprises some additional, smaller projects that I have worked on.
 
  ### Insurance Claims Analysis
 
- [dataset](Projects/InsuranceDatasetGit.xlsx) *To open the excel file click "open raw" and then download*
+ [dataset](Projects/InsuranceDatasetGit.xlsx) 
+*To open the excel file click "open raw" and then download*
  
  **Dataset**: Free public dataset downloaded from *Kaggle.com*. Contains demographic data on 1,339 patients and charges billed to their respective insurances.
 
