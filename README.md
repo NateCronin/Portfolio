@@ -20,7 +20,7 @@ In this section, you will find some of the more in-depth projects I have complet
 
 ### **Yelp Reviews Analysis**
 
-[*Code*](Projects/YelpCode.sql)
+[*`SQL Code`*](Projects/YelpCode.sql)
 
 [*Project Proposal*](code_url)
 
