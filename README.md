@@ -22,6 +22,8 @@ In this section, you will find some of the more in-depth projects I have complet
 
 [*Code*](Projects/YelpCode.sql)
 
+[*Project Proposal*](code_url)
+
 **Description:** This Project's focus was to analyze a datset of Yelp reviews of various businesses from 2005 to 2022. The goal was to help a fictional start-up coffee company in providing insights for location, market demographics, and other various business advice. This dataset included 5 distinct tables with information on businesses, reviews, Yelp users, tips users could leave, and times users checked into the business. In order to accompolish the intended goals, the data was loaded into Google Cloud, cleaned & processed using Google BigQuery, and thustly analyzed. Exploratory Data Analysis and correlation analysis were performed as well as creating a predictive model based on text sentiment analysis on keywords left on reviews. All visualizations were created using Tableau.
 
 **Skills:** Data Analysis, ETL, Data Modeling, Data Cleaning, Relational Database Mgmt, Cloud Storage
@@ -31,14 +33,25 @@ In this section, you will find some of the more in-depth projects I have complet
 **Findings/Results:** blah blah blah (final report)
 
 
-## **Study Projects** 
+## **Study Projects**
+
+This section comprises some additional, smaller projects that I have worked on.
+
  ### A/B Testing in SQL
  **Dataset**: 'dsv1069 on Mode Analytics, tables detailing users, events, orders, etc. for an online retailer
  
 **Goal**: Determine if making an item-level change on website configuration will affect the amount of items that are viewed and ultimately ordered
    [https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd](https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd
 
-- Excel sheet with insurance
+ ### Insurance Claims Analysis
+
+ [dataset](blah)
+ 
+ **Dataset**: Free public dataset downloaded from *Kaggle.com*. Contains demographic data on 1,339 patients and charges billed to their respective insurances.
+
+ **Goal**: Determine if any causual factors (BMI, age, smoker status, etc.) can explain dollar amount charged to insurance
+
+ **Skills**: Microsoft Excel, Data Cleaning, Conditional Formatting, Linear Regression, Statistics, Visualizations, Dashboards
 ## **Tools**
 
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
