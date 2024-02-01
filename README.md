@@ -45,7 +45,7 @@ This section comprises some additional, smaller projects that I have worked on.
 
  ### Insurance Claims Analysis
 
- [dataset](Projects/InsuranceDatasetGit.xlsx)
+ [dataset](Projects/InsuranceDatasetGit.xlsx) *To open the excel file click "open raw" and then download*
  
  **Dataset**: Free public dataset downloaded from *Kaggle.com*. Contains demographic data on 1,339 patients and charges billed to their respective insurances.
 
