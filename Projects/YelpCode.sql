@@ -80,6 +80,21 @@ Skills used: Aggregate Functions, Joins, Window Functions, Subqueries/CTE's, Dat
      GROUP BY city, state
      ORDER BY num_checkins DESC
 
+-- Analyze hours of businesses to determine best hours of operation
+     -- Hours column was in an array format, needed to unnest to analyze & create a new table
+
+     CREATE OR REPLACE TABLE hours AS
+       SELECT business_id, ARRAY(select trim(hours) 
+       FROM UNNEST(SPLIT(TRIM(hours, '{}')))hours) open
+     FROM yelp_dataset.Coffee_businesses
+
+-- See count of buisnesses with specific hours and their collective star ratings
+
+     SELECT TO_JSON_STRING(open) AS arr, COUNT(DISTINCT business_id) AS cnt, AVG(stars) AS average_star_rank
+     FROM yelp_dataset.hours
+     GROUP BY arr
+     ORDER BY cnt DESC
+
 
 --SENTIMENT ANALYSIS on Reviews using Sparse Features
 -- Creating new table joining reviews & coffee businesses while extracting text 
