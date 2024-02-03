@@ -45,6 +45,7 @@ This section comprises some additional, smaller projects that I have worked on.
 **Skills**: Joins, Subqueries, AB Testing, Stastistics, Hypothesis Testing
 
    [Full Report](https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)
+   
    [PDF Report](Projects/ModeReport.pdf)
 
  ### Insurance Claims Analysis
