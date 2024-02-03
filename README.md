@@ -30,7 +30,7 @@ In this section, you will find some of the more in-depth projects I have complet
 
 **Technology:** Google Cloud, SQL (Google Big Query), Microsoft Excel, Tableau
 
-**Findings/Results:** blah blah blah (final report)
+[**Findings/Results**](Projects/FinalReport.pdfProjects/FinalReport.pdf)
 
 
 ## **Study Projects**
