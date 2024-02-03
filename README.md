@@ -41,7 +41,11 @@ This section comprises some additional, smaller projects that I have worked on.
  **Dataset**: 'dsv1069 on Mode Analytics, tables detailing users, events, orders, etc. for an online retailer
  
 **Goal**: Determine if making an item-level change on website configuration will affect the amount of items that are viewed and ultimately ordered
-   [https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd](https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd
+
+**Skills**: Joins, Subqueries, AB Testing, Stastistics, Hypothesis Testing
+
+   [Full Report](https://app.mode.com/nathan_cronin/reports/408cc438431b/runs/4bc488326dfd)
+   [PDF Report](
 
  ### Insurance Claims Analysis
 
