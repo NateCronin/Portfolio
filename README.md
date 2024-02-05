@@ -65,7 +65,8 @@ This section comprises some additional, smaller projects that I have worked on.
 
 ## **Certificates** 
 
-[Google Data Analytics Certificate](https://github.com/NateCronin/Portfolio/blob/main/Certificates/Google%20Data%20Certificate.pdf) - Coursera, 2023
++ [Google Data Analytics Certificate](https://github.com/NateCronin/Portfolio/blob/main/Certificates/Google%20Data%20Certificate.pdf) - Coursera, 2023
++ [UC Davis SQL for Data Science Certificate](https://github.com/NateCronin/Portfolio/blob/main/Certificates/UC%20Davis%20SQL%20for%20Data%20Science%20Certificate.pdf)
 
 
 
