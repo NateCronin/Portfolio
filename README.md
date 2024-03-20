@@ -7,12 +7,12 @@ Below, you will be able to find some projects I have worked on in the past as we
 
 ## Contents
 
-+ [About Me](https://github.com/NateCronin/Portfolio/edit/main/README.md#about-me)
++ [About Me](https://github.com/NateCronin/Portfolio/blob/main/README.md#about-me)
 + [Portfolio Projects](https://github.com/NateCronin/Portfolio/blob/main/README.md#projects)
-+ [Study Projects](https://github.com/NateCronin/Portfolio/edit/main/README.md#study-projects)
-+ [Tools](https://github.com/NateCronin/Portfolio/edit/main/README.md#tools)
-+ [Certificates](https://github.com/NateCronin/Portfolio/edit/main/README.md#certificates)
-+ [Contacts](https://github.com/NateCronin/Portfolio/edit/main/README.md#contacts)
++ [Study Projects](https://github.com/NateCronin/Portfolio/blob/main/README.md#study-projects)
++ [Tools](https://github.com/NateCronin/Portfolio/blob/main/README.md#tools)
++ [Certificates](https://github.com/NateCronin/Portfolio/blob/main/README.md#certificates)
++ [Contacts](https://github.com/NateCronin/Portfolio/blob/main/README.md#contacts)
 
 ## Projects
 
