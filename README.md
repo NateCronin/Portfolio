@@ -43,7 +43,8 @@ In this section, you will find some of the more in-depth projects I have complet
 **Technology:** Power BI
 
 **Findings/Results:** Profit was stagnant for most of the year, with a sharp increase in the winter months, specifically Ocotober. Gross Sales by month followed this trend as well. 
- Predictably, Goverment was the domineering segment, contributing to 65% of the total profit. 
+ Predictably, Goverment was the domineering segment, contributing to 65% of the total profit. One area I found in which profit could potentiallly be increased was in altering the discounts offered for the products. Per the line and column chart in the center of the dashboard, products classifed in the high and medium discounts bands produced significantly lower profit then low and none. On top of this, there were over double the amount of products produced in these low profit bands. Lowering discounts on these products, could provide a key opportunity in increasing profitability. 
+
 
 
 ## **Study Projects**
